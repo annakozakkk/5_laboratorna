@@ -6,6 +6,8 @@ File::File()
 	name = "fsdfs";
 	extention = "ggd";
 	size = 28;
+
+
 }
 
 
