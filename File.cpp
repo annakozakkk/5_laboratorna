@@ -5,7 +5,7 @@ File::File()
 {
 	name = "fsdfs";
 	extention = "ggd";
-	size = 23;
+	size = 29;
 }
 
 
