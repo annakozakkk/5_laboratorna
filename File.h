@@ -18,9 +18,7 @@ public:
 	int getSize(){
 		return size;
 	}
-	
 	File();
-	
 	File( std::string name, std::string extention, int size);
 	
 };
