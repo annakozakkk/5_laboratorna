@@ -1,8 +1,7 @@
 
 #include <string>
 
-class File
-{
+class File{
 private:
 	std::string name;
 	std::string extention;

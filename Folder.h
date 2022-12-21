@@ -2,8 +2,7 @@
 #include<vector>
 
 #include"File.h"
-class Folder
-{
+class Folder{
 private:
 	std::vector<File>fileVector;
 	std::vector<Folder>folderVector;
