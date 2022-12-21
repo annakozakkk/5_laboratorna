@@ -1,4 +1,4 @@
-#pragma once
+
 #include <string>
 
 class File
@@ -15,8 +15,7 @@ public:
 	std::string getExtention() {
 		return extention;
 	}
-	int getSize()
-	{
+	int getSize(){
 		return size;
 	}
 	

@@ -1,7 +1,6 @@
-#pragma once
-#include"File.h"
+
 #include<vector>
-using namespace std;
+#include"File.h"
 
 class Folder
 {
@@ -11,11 +10,9 @@ private:
 	std::vector<Folder>folderVector;
 public:
 	Folder();
-	std::vector<File> getFileVector()
-	{
+	std::vector<File> getFileVector(){
 		return fileVector;
 	}
-	
 	
 	void addFile(File userfile);
 	void addFolder(Folder userfolder);
