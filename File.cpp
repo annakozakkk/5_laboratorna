@@ -1,5 +1,7 @@
-#include"File.h"
 #include<iostream>
+
+#include"File.h"
+
 
 File::File(){
 	name = "practicum";
